@@ -1,0 +1,5 @@
+# Python requirements for ESP32 LCD Display System
+# Install with: pip install -r requirements.txt
+
+pillow>=9.0.0    # Image processing and manipulation
+numpy>=1.21.0    # Numerical operations for image conversion
