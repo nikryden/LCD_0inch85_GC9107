@@ -24,6 +24,7 @@ Welcome to the examples and documentation folder! This directory contains everyt
 - **`CONVERTER_USAGE.md`** - How to convert images for display
 
 ### 🔧 **Technical Documentation**
+- **`ARDUINO_CONFIGURATION.md`** - Complete Arduino IDE setup and configuration guide
 - **`Modular_Architecture_Guide.md`** - System architecture and design
 - **`Performance_Optimizations.md`** - Speed and memory optimization details
 - **`Scalable_Display_System.md`** - Multi-display scaling information

@@ -1,6 +1,6 @@
 /*****************************************************************************
 * | File        :   Advanced_Display_Example.ino
-* | Author      :   ESP32 Multi-Display System
+* | Author      :   Niklas Rydén
 * | Function    :   Advanced example showing full control capabilities
 * | Info        :   Professional-grade features with complete customization
 * | Hardware    :   ESP32, GC9107 LCDs, SD Card

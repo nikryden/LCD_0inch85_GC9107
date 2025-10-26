@@ -1,6 +1,6 @@
 /*****************************************************************************
 * | File        :   DisplayManager.cpp
-* | Author      :   ESP32 Multi-Display System
+* | Author      :   Niklas Rydén
 * | Function    :   Implementation of scalable N-display management system
 * | Info        :   Modular display management with automatic setup and control
 * | Hardware    :   ESP32, multiple GC9107 LCDs, configurable pin assignments

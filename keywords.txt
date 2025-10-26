@@ -1,0 +1,157 @@
+#######################################
+# Syntax Coloring Map For ESP32 LCD Multi-Display System
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+EasyDisplayManager	KEYWORD1
+DisplayManager	KEYWORD1
+ImageDisplay	KEYWORD1
+LCD_Display	KEYWORD1
+LCD_Driver	KEYWORD1
+GUI_Paint	KEYWORD1
+DisplayPins	KEYWORD1
+DisplayConfiguration	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+# EasyDisplayManager methods
+quickStart	KEYWORD2
+smartSetup	KEYWORD2
+initialize	KEYWORD2
+loadImages	KEYWORD2
+showDemo	KEYWORD2
+troubleshootingWizard	KEYWORD2
+showSystemStatus	KEYWORD2
+runHardwareTest	KEYWORD2
+getDisplay	KEYWORD2
+getDisplayCount	KEYWORD2
+
+# DisplayManager methods
+initializeAllDisplays	KEYWORD2
+initializeDisplay	KEYWORD2
+getActiveDisplayCount	KEYWORD2
+getTotalDisplayCount	KEYWORD2
+isDisplayReady	KEYWORD2
+loadAndDistributeImages	KEYWORD2
+loadImageToDisplay	KEYWORD2
+showErrorOnAllDisplays	KEYWORD2
+clearAllDisplays	KEYWORD2
+setAllBacklights	KEYWORD2
+testAllDisplays	KEYWORD2
+showSystemInfo	KEYWORD2
+optimizeMemoryUsage	KEYWORD2
+
+# ImageDisplay methods
+loadImage	KEYWORD2
+loadImageFromSD	KEYWORD2
+displayImage	KEYWORD2
+clearImage	KEYWORD2
+setTransparencyColor	KEYWORD2
+enableTransparency	KEYWORD2
+disableTransparency	KEYWORD2
+
+# LCD_Display methods
+displayInit	KEYWORD2
+displayClear	KEYWORD2
+displaySetCursor	KEYWORD2
+displayDrawPixel	KEYWORD2
+displayDrawLine	KEYWORD2
+displayDrawRectangle	KEYWORD2
+displayFillRectangle	KEYWORD2
+displayDrawCircle	KEYWORD2
+displayFillCircle	KEYWORD2
+displayShowText	KEYWORD2
+setBacklight	KEYWORD2
+setBrightness	KEYWORD2
+
+# GUI_Paint methods
+paint_NewImage	KEYWORD2
+paint_SelectImage	KEYWORD2
+paint_SetRotate	KEYWORD2
+paint_SetMirroring	KEYWORD2
+paint_SetPixel	KEYWORD2
+paint_GetPixel	KEYWORD2
+paint_Clear	KEYWORD2
+paint_ClearWindows	KEYWORD2
+paint_DrawPoint	KEYWORD2
+paint_DrawLine	KEYWORD2
+paint_DrawRectangle	KEYWORD2
+paint_DrawFilledRectangle	KEYWORD2
+paint_DrawCircle	KEYWORD2
+paint_DrawFilledCircle	KEYWORD2
+paint_DrawChar	KEYWORD2
+paint_DrawString	KEYWORD2
+paint_DrawImage	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
+# Display configurations
+SINGLE_DISPLAY	LITERAL1
+DUAL_DISPLAY	LITERAL1
+TRIPLE_DISPLAY	LITERAL1
+QUAD_DISPLAY	LITERAL1
+HEXA_DISPLAY	LITERAL1
+OCTA_DISPLAY	LITERAL1
+
+# Colors
+WHITE	LITERAL1
+BLACK	LITERAL1
+BLUE	LITERAL1
+BRED	LITERAL1
+GRED	LITERAL1
+GBLUE	LITERAL1
+RED	LITERAL1
+MAGENTA	LITERAL1
+GREEN	LITERAL1
+CYAN	LITERAL1
+YELLOW	LITERAL1
+BROWN	LITERAL1
+BRRED	LITERAL1
+GRAY	LITERAL1
+DARKBLUE	LITERAL1
+LIGHTBLUE	LITERAL1
+GRAYBLUE	LITERAL1
+LIGHTGREEN	LITERAL1
+LGRAY	LITERAL1
+LGRAYBLUE	LITERAL1
+LBBLUE	LITERAL1
+
+# Transparency
+TRANSPARENCY_ENABLED	LITERAL1
+TRANSPARENCY_DISABLED	LITERAL1
+TRANSPARENCY_KEY_COLOR	LITERAL1
+DEFAULT_TRANSPARENCY_COLOR	LITERAL1
+
+# Display dimensions
+LCD_WIDTH	LITERAL1
+LCD_HEIGHT	LITERAL1
+IMAGE_SIZE	LITERAL1
+BYTES_PER_PIXEL	LITERAL1
+
+# SPI settings
+SPI_FREQUENCY	LITERAL1
+SPI_MODE	LITERAL1
+
+# Pin definitions
+DEV_RST_PIN	LITERAL1
+DEV_DC_PIN	LITERAL1
+DEV_BL_PIN	LITERAL1
+DEV_CS_PIN	LITERAL1
+
+#######################################
+# Special Keywords
+#######################################
+
+# Configuration macros
+MY_DISPLAY_COUNT	KEYWORD2
+DISPLAY_COUNT	KEYWORD2
+USE_SINGLE_DISPLAY	KEYWORD2
+USE_DUAL_DISPLAY	KEYWORD2
+USE_QUAD_DISPLAY	KEYWORD2

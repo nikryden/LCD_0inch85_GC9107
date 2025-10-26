@@ -1,6 +1,15 @@
 /**
  * Example Configuration for ESP32 LCD Display System
  * Copy and modify these settings in your main Arduino file
+ * 
+ * 🔧 ARDUINO SETUP REQUIRED:
+ * - Board: ESP32-S3 Dev Module (recommended) or ESP32 Dev Module
+ * - Upload Speed: 921600 (or 115200 if having issues)
+ * - CPU Frequency: 240MHz (WiFi/BT)
+ * - Flash Size: 4MB (32Mb) minimum
+ * - Partition Scheme: Default 4MB
+ * 
+ * 📖 For complete Arduino IDE setup guide, see: docs/ARDUINO_CONFIGURATION.md
  */
 
 #ifndef DISPLAY_CONFIG_H
