@@ -1,0 +1,46 @@
+#######################################
+# Syntax Coloring Map For GC9107
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+GC9107	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+begin	KEYWORD2
+setRotation	KEYWORD2
+invertDisplay	KEYWORD2
+fillScreen	KEYWORD2
+drawPixel	KEYWORD2
+fillRect	KEYWORD2
+drawFastHLine	KEYWORD2
+drawFastVLine	KEYWORD2
+drawRGBBitmap	KEYWORD2
+width	KEYWORD2
+height	KEYWORD2
+displayOn	KEYWORD2
+displayOff	KEYWORD2
+sleepMode	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
+GC9107_BLACK	LITERAL1
+GC9107_WHITE	LITERAL1
+GC9107_RED	LITERAL1
+GC9107_GREEN	LITERAL1
+GC9107_BLUE	LITERAL1
+GC9107_CYAN	LITERAL1
+GC9107_MAGENTA	LITERAL1
+GC9107_YELLOW	LITERAL1
+GC9107_ORANGE	LITERAL1
+GC9107_ROTATION_0	LITERAL1
+GC9107_ROTATION_90	LITERAL1
+GC9107_ROTATION_180	LITERAL1
+GC9107_ROTATION_270	LITERAL1
