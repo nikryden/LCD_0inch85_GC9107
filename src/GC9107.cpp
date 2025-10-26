@@ -257,7 +257,7 @@ void GC9107::drawPixel(int16_t x, int16_t y, uint16_t color) {
 }
 
 void GC9107::fillRect(int16_t x, int16_t y, int16_t w, int16_t h, uint16_t color) {
-    if ((x >= _width) || (y >= _height)) {
+    if ((x >= _width) || (y >= _height) || (x < 0) || (y < 0)) {
         return;
     }
 
@@ -266,6 +266,10 @@ void GC9107::fillRect(int16_t x, int16_t y, int16_t w, int16_t h, uint16_t color
     }
     if ((y + h - 1) >= _height) {
         h = _height - y;
+    }
+    
+    if (w <= 0 || h <= 0) {
+        return;
     }
 
     startWrite();
@@ -283,31 +287,49 @@ void GC9107::fillRect(int16_t x, int16_t y, int16_t w, int16_t h, uint16_t color
 }
 
 void GC9107::drawFastHLine(int16_t x, int16_t y, int16_t w, uint16_t color) {
-    if ((x >= _width) || (y >= _height)) {
+    if ((x >= _width) || (y >= _height) || (y < 0)) {
         return;
+    }
+
+    if (x < 0) {
+        w += x;
+        x = 0;
     }
 
     if ((x + w - 1) >= _width) {
         w = _width - x;
+    }
+    
+    if (w <= 0) {
+        return;
     }
 
     fillRect(x, y, w, 1, color);
 }
 
 void GC9107::drawFastVLine(int16_t x, int16_t y, int16_t h, uint16_t color) {
-    if ((x >= _width) || (y >= _height)) {
+    if ((x >= _width) || (y >= _height) || (x < 0)) {
         return;
+    }
+
+    if (y < 0) {
+        h += y;
+        y = 0;
     }
 
     if ((y + h - 1) >= _height) {
         h = _height - y;
+    }
+    
+    if (h <= 0) {
+        return;
     }
 
     fillRect(x, y, 1, h, color);
 }
 
 void GC9107::drawRGBBitmap(int16_t x, int16_t y, const uint16_t *bitmap, int16_t w, int16_t h) {
-    if ((x >= _width) || (y >= _height)) {
+    if ((x >= _width) || (y >= _height) || (x < 0) || (y < 0)) {
         return;
     }
 
@@ -319,6 +341,10 @@ void GC9107::drawRGBBitmap(int16_t x, int16_t y, const uint16_t *bitmap, int16_t
     }
     if ((y + h - 1) >= _height) {
         actualH = _height - y;
+    }
+    
+    if (actualW <= 0 || actualH <= 0) {
+        return;
     }
 
     startWrite();
