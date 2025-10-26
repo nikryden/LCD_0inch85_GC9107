@@ -1,15 +1,20 @@
 /*****************************************************************************
 * | File        :   Ultra_Simple_Display_System.ino
-* | Author      :   ESP32 Multi-Display System
+* | Author      :   Niklas Rydén
 * | Function    :   Ultra user-friendly display system - just works!
 * | Info        :   One-line setup, automatic everything, beginner-friendly
 * | Hardware    :   ESP32, GC9107 LCDs, SD Card - that's it!
 * | 
 * | 🎉 ULTRA-SIMPLE USAGE:
-* |   1. Connect your displays
-* |   2. Upload this code  
-* |   3. Open Serial Monitor
-* |   4. Everything happens automatically!
+* |   1. Set up Arduino IDE (see: docs/ARDUINO_CONFIGURATION.md)
+* |   2. Connect your displays
+* |   3. Upload this code  
+* |   4. Open Serial Monitor
+* |   5. Everything happens automatically!
+* |
+* | 🔧 ARDUINO SETTINGS:
+* |   Board: ESP32-S3 Dev Module | Upload Speed: 921600 | CPU: 240MHz
+* |   Quick Setup Guide: ARDUINO_SETUP_CHECKLIST.md
 ******************************************************************************/
 
 #include <Arduino.h>

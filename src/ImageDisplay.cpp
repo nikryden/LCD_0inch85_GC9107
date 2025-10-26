@@ -1,6 +1,6 @@
 /*****************************************************************************
 * | File        :   ImageDisplay.cpp
-* | Author      :   ESP32 Multi-Display Library
+* | Author      :   Niklas Rydén
 * | Function    :   Implementation of reusable image display functionality
 * | Info        :   Modular library for loading images from SD to LCD displays
 * | Hardware    :   ESP32, GC9107 LCDs, SD Card

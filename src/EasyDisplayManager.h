@@ -1,6 +1,6 @@
 /*****************************************************************************
 * | File        :   EasyDisplayManager.h  
-* | Author      :   ESP32 Multi-Display System
+* | Author      :   Niklas Rydén
 * | Function    :   Ultra user-friendly display management system
 * | Info        :   Auto-detection, simple setup, comprehensive user guidance
 * | Hardware    :   ESP32, multiple GC9107 LCDs, automatic configuration

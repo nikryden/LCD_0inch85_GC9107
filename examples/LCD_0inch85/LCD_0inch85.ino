@@ -1,6 +1,6 @@
 /*****************************************************************************
 * | File        :   LCD_0inch85.ino
-* | Author      :   ESP32 Multi-Display System
+* | Author      :   Niklas Rydén
 * | Function    :   Ultra user-friendly display system with memory optimization
 * | Info        :   Now using EasyDisplayManager with automatic memory cleanup
 * | Hardware    :   ESP32-S3, configurable number of GC9107 LCDs (128x128), SD Card

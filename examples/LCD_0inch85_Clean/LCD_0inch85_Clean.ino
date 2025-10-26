@@ -1,6 +1,6 @@
 /*****************************************************************************
 * | File        :   LCD_0inch85_Clean.ino
-* | Author      :   ESP32 Multi-Display System - Clean Version
+* | Author      :   Niklas Rydén
 * | Function    :   Production-ready display system with transparency support
 * | Info        :   Optimized for Android library integration with best practices
 * | Hardware    :   ESP32-S3, configurable GC9107 LCDs (128x128), SD Card

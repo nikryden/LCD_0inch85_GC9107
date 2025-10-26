@@ -30,7 +30,8 @@
 
 All examples, documentation, and guides are in the **`examples/`** folder:
 
-- **📖 Complete Guide**: `examples/README.md`
+- **� Arduino Configuration**: `docs/ARDUINO_CONFIGURATION.md` - Complete Arduino IDE setup guide
+- **�📖 Complete Guide**: `examples/README.md`
 - **🌟 Beginner Example**: `examples/Ultra_Simple_Display_System.ino`
 - **🎛️ Advanced Example**: `examples/Advanced_Display_Example.ino`
 - **📚 Full Documentation**: Multiple guides for all aspects
@@ -73,9 +74,15 @@ All examples, documentation, and guides are in the **`examples/`** folder:
 
 ## 🚀 **Get Started Now**
 
-1. **📁 Go to `docs/` folder**
-2. **📖 Read `docs/README.md`** 
-3. **🎯 Choose your example file**
+### 📦 **Installation Options**
+- **🔗 Arduino Library Manager**: Search for "ESP32 LCD Multi-Display System" (coming soon)
+- **📁 Manual Installation**: Download and copy to your Arduino libraries folder
+- **⬇️ Direct Download**: Clone or download this repository
+
+### 🎯 **Setup Guide**
+1. **✅ Quick Setup**: `ARDUINO_SETUP_CHECKLIST.md` - Fast checklist for immediate setup
+2. **🔧 Complete Setup**: `docs/ARDUINO_CONFIGURATION.md` - Detailed Arduino IDE configuration
+3. **📖 Full Guide**: `docs/README.md` - Complete documentation and examples
 4. **⚡ Upload and enjoy!**
 
 ---
