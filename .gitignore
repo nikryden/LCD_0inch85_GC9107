@@ -32,3 +32,6 @@ google-services.json
 
 # Android Profiling
 *.hprof
+
+# CodeQL
+_codeql_detected_source_root
